@@ -31,9 +31,28 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "./node_modules/vendor/icofont/icofont.min.css",
+              "./node_modules/vendor/boxicons/css/boxicons.min.css",
+              "./node_modules/vendor/venobox/venobox.css",
+              "./node_modules/vendor/owl.carousel/assets/owl.carousel.min.css",
+              "./node_modules/vendor/aos/aos.css",
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/bootstrap/dist/js/jquery-3.6.0.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "node_modules/vendor/jquery.easing/jquery.easing.min.js",
+              "node_modules/vendor/php-email-form/validate.js",
+              "node_modules/vendor/waypoints/jquery.waypoints.min.js",
+              "node_modules/vendor/counterup/counterup.min.js",
+              "node_modules/vendor/isotope-layout/isotope.pkgd.min.js",
+              "node_modules/vendor/venobox/venobox.min.js",  
+              "node_modules/vendor/owl.carousel/owl.carousel.min.js",
+              "node_modules/vendor/typed.js/typed.min.js",
+              "node_modules/vendor/aos/aos.js",
+              "node_modules/vendor/js/main.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -94,7 +113,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.css"
             ],
             "scripts": []
           }
